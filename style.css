@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300&family=Oswald&display=swap");
+
+:root {
+  --primary: ;
+  --secondary: rgb(73, 140, 240);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(img/bg1.png);
+  background-repeat: no-repeat;
+  background-size: auto 1000px;
+  height: 10000px;
+}
+
+/* nav  start*/
+.nav-item {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.nav-item .active {
+  border-bottom: 1px solid #000;
+}
+.link_nav:hover {
+  transform: scale(1.05);
+}
+.nav-item .active:hover {
+  transform: scale(1);
+}
+.btn_getstart,
+.btn_detail {
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* nav end  */
+
+.land_pg {
+  height: 600px;
+}
+
+.row_2 {
+  margin-top: 200px;
+}
+
+.hr {
+  width: 30%;
+  margin: 10px auto !important;
+  border-top: 2px solid var(--secondary);
+  background-color: #fff;
+}
+
+.card:hover {
+  border: 1px solid var(--secondary);
+}
+
+.aline {
+  height: 120px;
+}
+
+.aline .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.aline .p {
+  font-size: 13px;
+}

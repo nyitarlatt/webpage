@@ -42,7 +42,10 @@ body {
 }
 
 /* nav end  */
-
+.wov:hover {
+  color: #3791db;
+  cursor: pointer;
+}
 .land_pg {
   height: 600px;
 }
@@ -56,6 +59,16 @@ body {
   margin: 10px auto !important;
   border-top: 2px solid var(--secondary);
   background-color: #fff;
+}
+.rdmore {
+  text-decoration: none;
+  color: #000;
+}
+.about h4 {
+  cursor: pointer;
+}
+.about h4:hover {
+  color: var(--secondary);
 }
 
 .card:hover {
@@ -72,6 +85,12 @@ body {
   align-items: center;
   height: 40px;
   width: 40px;
+}
+.aline .rounded-circle:hover {
+  color: var(--secondary);
+
+  background-color: #fff !important;
+  border: 1px solid rgb(57, 55, 78);
 }
 .aline .p {
   font-size: 13px;
